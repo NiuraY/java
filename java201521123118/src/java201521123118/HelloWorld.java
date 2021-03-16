@@ -13,6 +13,5 @@ public class HelloWorld {
             else
                 System.out.println(a + b);
         }
-        in.close();
     }
 }
