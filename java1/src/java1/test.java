@@ -1,50 +1,9 @@
 package java1;
 import java.util.Scanner;
-//public class test{
-//	private double radius;
-//	public void setRadius(double radius){
-//		this.radius = radius;
-//	}
-//	public double getRadius(){
-//		return radius;
-//		
-//	}
-//	public void showAre(){
-//		System.out.println(Math.PI*radius*radius);
-//	}
-//	public static void main(String[] args){
-//		
-//		test a = new test();
-//		Scanner sc = new Scanner(System.in);
-//		double a1 = sc.nextDouble();
-//		a.setRadius(a1);
-//		a.showAre();
-//	}
-//}
-//public class test{
-//	public test(){
-//		System.out.println("test is xxxxxxx");
-//	}
-//	public static void main(String args[]){
-//		test a1 = new test();
-//	}
-//}
-//class test{
-//	private double radius;
-//	public test(double radius){
-//		this.radius = radius;
-//	}
-//	public void setRadius(double radius){
-//	this.radius = radius;
-//}
-//	public static void main(String[] args){
-//		final test ci = new test(10);
-//		System.out.println(ci.radius);
-//		ci.setRadius(20);
-//		System.out.println(ci.radius);
-//	}
-//}
-import java.util.Scanner;
+/**
+ * 
+ * 这是定义一个人的名字、年龄、id的基本信息
+ */
 class Person{
 	private String name;
 	private boolean gender;
@@ -144,5 +103,4 @@ s.getall();
 System.out.println(s);
 	}
 
-	
 }
